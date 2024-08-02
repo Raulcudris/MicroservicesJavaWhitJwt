@@ -1,4 +1,5 @@
-package com.makiia.user_services;
+package com.makiia.user_services.security;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -7,8 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 public class UserServicesApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(UserServicesApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(UserServicesApplication.class, args);
+    }
 }
